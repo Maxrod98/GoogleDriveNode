@@ -1,0 +1,24 @@
+{
+  "name": "GoogleDriveNode",
+  "version": "1.0.0",
+  "description": "A simple web app that accesses google drive's files.",
+  "main": "index.js",
+  "author": "Maximiliano Torresdey",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "axios": "^1.7.3",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "googleapis": "^105.0.0",
+    "multer": "^1.4.5-lts.1",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
